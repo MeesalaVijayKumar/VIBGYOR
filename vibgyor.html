@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                text-align: center;
+
+            }
+            button{
+                height: 100px;
+                width: 100px;
+                font-size: 20px;
+                margin-top: 300px;
+                margin-left: 100px;
+                margin-bottom: 100px;
+            }
+            .v{
+                
+                background-color: violet;
+                color: aliceblue;
+            }
+            .b{
+                background-color: blue;
+                color: aliceblue;
+            }
+            .i{
+                background-color: indigo;
+                color: aliceblue;
+            }
+            .g{
+                background-color: green;
+                color: aliceblue;
+            }
+            .y{
+                background-color: yellow;
+                color: rgb(0, 0, 0);
+            }
+            .o{
+                background-color: orange;
+                color: aliceblue;
+            }
+            .r{
+                background-color: red;
+                color: aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="v"  onclick="myviolet()">Violet</button>
+        <button class="i"  onclick="myindigo()">Indigo</button>
+        <button class="b"  onclick="myblue()">Blue</button>
+        <button class="g"  onclick="mygreen()">Green</button>
+        <button class="y"  onclick="myyellow()">Yellow</button>
+        <button class="o"  onclick="myorange()">Orange</button>
+        <button class="r"  onclick="myred()">Red</button>
+    </body>
+    <script>
+        function myviolet(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Violet";
+        }
+        function myindigo(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Indigo";
+        }
+       function myblue(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Blue";
+        }
+       function mygreen(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Green";
+        }
+       function myyellow(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Yellow";
+        }
+       function myorange(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Orange";
+       }
+       function myred(){
+            document.getElementsByTagName("BODY")[0].style.backgroundColor="Red";
+        }
+    </script>
+
+</html>
